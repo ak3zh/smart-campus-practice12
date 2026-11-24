@@ -1,0 +1,11 @@
+ok 1 - T1 valid free interval -> available
+ok 2 - T2 overlap -> unavailable
+ok 3 - T3 blocked room -> unavailable
+ok 4 - T4 duration 0 -> validation error
+ok 5 - T5 duration 121 -> validation error
+ok 6 - T6 past start -> validation error
+ok 7 - T7 adjacent non-overlapping -> available
+ok 8 - T8 bookings unchanged after checks
+# tests 8
+# pass 8
+# fail 0
